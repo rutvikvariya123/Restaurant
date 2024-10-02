@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins';
+    font-style: normal;
+    line-height: 1.5;
+    position: relative;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header .nav ul li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313131;
+    padding: 0 25px;
+}
+
+header .nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header button {
+    font-size: 16px;
+    background-color: #313131;
+    color: white;
+    padding: 13px 22px;
+    border-radius: 24px;
+    border: none;
+}
+
+header .hder_img {
+    position: relative;
+}
+
+header .hder_img span {
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 10%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 50%;
+}
+
+.hder_img .num {
+    width: 15px;
+    height: 15px;
+    background: #C0994A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.hero-section {
+    background: url(../img1/hdr_main.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 135px 0;
+}
+
+.hero-section .justify-content-center {
+    justify-content: center;
+}
+
+.hero-section .hero-content h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #C0994A;
+}
+
+.hero-section .hero-content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #838383;
+    text-align: center;
+}
+
+
+.product_data {
+    margin: 100px 0px;
+}
+
+.product_data .recipe {
+    position: relative;
+    flex-basis: 30%;
+}
+
+.product_data .recipe .ab_img {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.product_data .img_content {
+    display: block;
+    margin-top: 12px;
+}
+
+.product_data .img_content img {
+    margin-right: 30px;
+}
+
+.product_data .recipe_content h3 {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    color: #313131;
+    margin-top: 15px;
+    margin-right: 134px;
+}
+
+.product_data .recipe_content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #838383;
+    margin-top: 15px;
+}
+
+.product_data button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #C0994A;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.product_data .part_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.client_review {
+    padding-bottom: 100px;
+}
+
+.client_review .client {
+    text-align: center;
+    width: 822px;
+    margin: 0 auto;
+}
+
+.client_review .client h6 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #C0994A;
+}
+
+.client_review .client h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 57px;
+    color: #313131;
+}
+
+.client_review .client_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.client_review .client_img .img_0 {
+    margin-right: 80px;
+}
+
+.client_review .client_img .img_1 {
+    margin-right: 50px;
+}
+
+.client_review .client_img .img_2 {
+    margin-right: 50px;
+}
+
+.client_review .client_img .img_3 {
+    margin-right: 80px;
+}
+
+.client_review .client p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #313131;
+}
+
+.client_review .client img {
+    margin-top: 30px;
+}
+
+.client_review .client h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #313131;
+}
+
+footer {
+    background-color: #0F0F0F;
+    color: #FFFFFF;
+}
+
+footer .row {
+    align-items: flex-start;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+footer .about_us {
+    flex-basis: 20%;
+}
+
+footer h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+footer .about_us p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B6B6B6;
+    margin-bottom: 30px;
+}
+
+footer .about_us img {
+    margin-right: 15px;
+}
+
+footer .menu {
+    flex-basis: 23%;
+}
+
+footer .menu .menu_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .menu ul {
+    padding: 0;
+    list-style: none;
+}
+
+footer .menu ul li {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B6B6B6;
+}
+
+footer .touch {
+    flex-basis: 18%;
+}
+
+footer .touch .loc_img {
+    display: flex;
+    align-items: flex-start;
+}
+
+footer .loc_img p {
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B6B6B6;
+}
+
+footer .time_img {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+footer .time_img p {
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B6B6B6;
+}
+
+footer .time_img p span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: block;
+}
+
+footer .touch h6 {
+    margin-left: 35px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B6B6B6;
+    margin-top: 10px;
+}
+
+footer .touch h6 span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: block;
+}
+
+footer .newsletter {
+    flex-basis: 21%;
+}
+
+footer .newsletter p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B6B6B6;
+    margin-bottom: 15px;
+}
+
+footer .newsletter form {
+    position: relative;
+}
+
+footer .newsletter #email {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #838383;
+    padding: 13px 68px 13px 10px;
+}
+
+footer .newsletter .fo_img {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+}
+
+footer .copy_right p {
+    text-align: center;
+    padding: 30px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border-top: 1px solid #B6B6B6;
+}
